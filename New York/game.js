@@ -59,3 +59,7 @@ function moveEnemy() {
 }
 
 moveEnemy();
+
+window.addEventListener("click", () => {
+    document.getElementById("citySound").play();
+});
