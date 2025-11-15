@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+#gameContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #111 0%, #222 100%);
+}
+
+#player {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+
+#enemy {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: #f44336;
+    border-radius: 10px;
+}
